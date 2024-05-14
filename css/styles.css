@@ -1,0 +1,153 @@
+	
+/* styles.css */
+.button-fb {
+	z-index:99999;
+  background-color: rgb(30, 115, 190);
+  align-items: center;
+  border-radius: 60px;
+  display: flex;
+  height: 44px;
+  padding: 0px 16px;
+  position: fixed;  
+  bottom: 10px;       
+  right: 0;         
+  cursor: pointer;
+}
+
+.icon-fb {
+  margin-left: -2px;
+  margin-right: 6px;
+}
+
+.icon-fb svg {
+  width: 24px;
+    height: 34px;
+    padding-top: 7px
+}
+
+.text-fb {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  user-select: none;
+  white-space: nowrap;
+}
+.welcome-page-modal-sheet-content {
+    display: none;
+}
+	/* General Styles */
+	
+	@media (max-width:575px) {
+
+.welcome-page-modal-sheet-content.active {
+	 display: block;
+   position: fixed;
+  bottom: 60px; 
+  right: 10px; 
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	width:270px;
+  z-index: 99999; 
+}
+}
+
+@media (min-width:576px) {
+
+.welcome-page-modal-sheet-content.active {
+	 display: block;
+   position: fixed;
+  bottom: 60px; 
+  right: 10px; 
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	width:400px;
+  z-index: 99999; 
+}
+
+}
+button.welcome-page-modal-sheet-action-button a {
+    color: white;
+}
+
+.welcome-page-modal-sheet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.welcome-page-modal-sheet-image {
+  width: 80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.clearfix {
+  /* Use clearfix to clear floats if necessary */
+  overflow: auto;
+}
+
+.welcome-page-modal-sheet-title {
+  font-size: 20px; /* Adjust as needed */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.welcome-page-modal-sheet-title-text {
+  color: #333; /* Or desired text color */
+}
+
+.welcome-page-modal-sheet-description {
+  font-size: 16px; /* Adjust as needed */
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.welcome-page-modal-sheet-description-text {
+  color: #666; /* Or desired text color */
+}
+
+.welcome-page-modal-sheet-action {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-page-modal-sheet-action-button {
+  align-items: center;
+    border-radius: 16px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    justify-content: center;
+    min-height: 54px;
+    min-width: 159px;
+    outline: none;
+    padding: 0 30px 0 30px;
+	background-color: rgb(30, 115, 190);
+}
+
+.powered-by-text {
+  font-size: 12px; 
+  color: #999; 
+  margin-top: 20px;
+  text-align: center;
+}
+
+.powered-by-text-content {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.powered-by-text-icon {
+  /* Add styles for the icon (SVG or image) */
+}
